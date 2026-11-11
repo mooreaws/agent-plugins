@@ -50,6 +50,20 @@ GitHub provides additional documentation on [forking a repository](https://docs.
 
 Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any 'help wanted' issues is a great place to start.
 
+## Frequently Asked Questions
+
+### Do I need an RFC for my change?
+
+Only for **new plugins** or **major changes**. Bug fixes, documentation improvements, and small enhancements to existing plugins can go straight to a pull request. See [RFCs for New Plugins and Major Changes](#rfcs-for-new-plugins-and-major-changes).
+
+### How do I run the same checks as CI locally?
+
+Install the toolchain with `mise install`, then run `mise run build` from the repository root. This runs linting, formatting checks, manifest validation, tests, and security scans. See the [Development Guide](./docs/DEVELOPMENT_GUIDE.md) for details.
+
+### My plugin's skill isn't triggering when I test it. What should I check?
+
+Skills auto-trigger based on the `description` field in their `SKILL.md` frontmatter, so make sure it clearly describes the user intents it should match. Test locally with `claude --plugin-dir ./plugins/<plugin-name>`, and see the [Troubleshooting Guide](./docs/TROUBLESHOOTING.md#skill-not-auto-triggering) for more steps.
+
 ## Code of Conduct
 
 This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct). For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact opensource-codeofconduct@amazon.com with any additional questions or comments.
