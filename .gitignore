@@ -1,3 +1,5 @@
+# Files and directories Git should ignore (dependencies, build outputs, local/tooling artifacts).
+
 # Dependencies
 node_modules/
 
