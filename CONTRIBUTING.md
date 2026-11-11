@@ -2,6 +2,11 @@
 
 Thank you for your interest in contributing to Agent Plugins for AWS.
 
+## Quick Links
+
+- [README](./README.md) - Project overview, available plugins, and installation
+- [GitHub Issues](https://github.com/awslabs/agent-plugins/issues) - Report bugs, request features, and open RFCs
+
 ## Role Guides
 
 Depending on your role, please review the appropriate guide for repository-specific instructions:
