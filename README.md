@@ -344,6 +344,10 @@ GitHub environment and AWS account configuration are documented in the [administ
 - [Claude Code plugins documentation](https://code.claude.com/docs/en/plugins)
 - [Cursor plugins documentation](https://cursor.com/docs/plugins)
 
+## Getting help
+
+Found a bug or have a question? Please [open a GitHub issue](https://github.com/awslabs/agent-plugins/issues/new/choose) and pick the template that best fits your request. Include as much detail as you can, such as the plugin name, your agent and version, and steps to reproduce.
+
 ## License
 
 This project is licensed under the Apache-2.0 License.
